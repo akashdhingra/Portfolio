@@ -10,7 +10,7 @@
     --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
-    --first-color: hsl(250, 69%, 61%);
+    --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -155,6 +155,34 @@ img {
 }
 
 /*==================== NAV ====================*/
+.nav{
+  max-width: 968px;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav__logo,
+.nav__toggle{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.nav__logo:hover{
+  color: var(--first-color);
+
+}
+
+.nav__toggle{
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nav__toggle:hover{
+  color: var(--first-color);
+}
 
 
 /* show menu */
