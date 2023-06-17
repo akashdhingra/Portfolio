@@ -714,12 +714,6 @@ img {
 }
 
 
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
 /*==================== CONTACT ME ====================*/
 .contact__container{
   row-gap: 3rem;
@@ -942,6 +936,7 @@ img {
   .container{
     margin-left: auto;
     margin-right: auto;
+    max-width: 80%;
   }
 
   body{
@@ -1115,5 +1110,5 @@ img {
   .contact__form{
     width: 460px;
   }
-  
+
 }
