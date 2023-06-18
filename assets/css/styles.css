@@ -1074,6 +1074,31 @@ img {
   
 }
 
+@media screen and (max-width: 768px) {
+  .contact__container {
+    display: flex;
+    flex-direction: column; /* Change the flex direction to vertical */
+    align-items: center; /* Center items horizontally */
+    row-gap: 2rem; /* Add some vertical spacing between items */
+  }
+
+  .contact__information {
+    display: flex;
+    flex-direction: column; /* Change the flex direction to vertical */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    padding-left: 0px;
+  }
+
+  .contact__icon {
+    margin-bottom: 0.5rem; /* Add some spacing below the icon */
+  }
+
+  .contact__subtitle {
+    margin-top: 0.5rem; /* Add some spacing above the subtitle */
+  }
+}
+
 /* For large devices */
 
 @media screen and (min-width: 1024px) {
